@@ -1,0 +1,62 @@
+.hero-section {
+  position: absolute;
+  width: 1021px;
+  height: 720px;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  position: absolute;
+  width: 394px;
+  height: 79px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.hero-background {
+  position: absolute;
+  width: 1021px;
+  height: 720px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 538px;
+  height: 383px;
+  top: 125px;
+  left: 24px;
+  background-color: #000002b2;
+  filter: blur(50px);
+}
+
+.hero-title {
+  position: absolute;
+  width: 579px;
+  top: 143px;
+  left: 24px;
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  width: 185px;
+  height: 51px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 7px;
+  position: absolute;
+  top: 0;
+  left: 1450px;
+  overflow: hidden;
+  border: 0px;
+  background: transparent;
+  cursor: pointer;
+}

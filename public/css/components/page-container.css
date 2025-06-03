@@ -1,0 +1,26 @@
+.page-container {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.page-container .main-content {
+  background-color: var(--color-white);
+  overflow: hidden;
+  width: 1728px;
+  height: 4772px;
+  position: relative;
+}
+
+.background-shape {
+  position: absolute;
+  width: 2200px;
+  height: 1300px;
+  top: 1980px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  max-width: 100%;
+}

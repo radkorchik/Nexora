@@ -1,0 +1,352 @@
+/* Подключение шрифтов */
+@font-face {
+  font-family: "InvolveRegular";
+  src: url("fonts/InvolveRegular/InvolveRegular.eot");
+  src: url("fonts/InvolveRegular/InvolveRegular.woff2") format("woff2"), url("fonts/InvolveRegular/InvolveRegular.woff")
+    format("woff"), url("fonts/InvolveRegular/InvolveRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InvolveBold";
+  src: url("fonts/InvolveBold/InvolveBold.eot");
+  src: url("fonts/InvolveBold/InvolveBold.woff2") format("woff2"), url("fonts/InvolveBold/InvolveBold.woff")
+    format("woff"), url("fonts/InvolveBold/InvolveBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("fonts/Unbounded/Unbounded.eot");
+  src: url("fonts/Unbounded/Unbounded.woff2") format("woff2"), url("fonts/Unbounded/Unbounded.woff") format("woff"),
+    url("fonts/Unbounded/Unbounded.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Стили для детальной страницы услуг */
+.page-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.main-content {
+  width: 1728px;
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+/* Убираем background-shape для страницы услуг */
+.background-shape {
+  display: none;
+}
+
+/* Шапка сайта с баннером услуг */
+.services-hero {
+  position: relative;
+  width: 100%;
+  max-width: 1643px;
+  height: 720px;
+  margin: 40px auto 0;
+}
+
+.logo {
+  position: absolute;
+  width: 394px;
+  height: 79px;
+  top: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.hero-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 333px;
+  height: 132px;
+  top: 552px;
+  left: 39px;
+  background-color: rgba(0, 0, 2, 0.9);
+  filter: blur(50px);
+}
+
+.hero-title {
+  position: absolute;
+  top: 570px;
+  left: 47px;
+  font-family: "Unbounded", Helvetica;
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 83px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  z-index: 1;
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  width: 185px;
+  height: 51px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 7px;
+  position: absolute;
+  top: 0;
+  left: 1450px;
+  overflow: hidden;
+  border: 0px;
+  background: transparent;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Навигация */
+.breadcrumbs {
+  position: relative;
+  width: 100%;
+  max-width: 1648px;
+  display: flex;
+  justify-content: space-between;
+  margin: 120px auto 0;
+  padding: 0 40px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-arrow {
+  width: 32px;
+  height: 32px;
+}
+
+.back-text {
+  font-family: "InvolveRegular", Helvetica;
+  color: #0b0226;
+  font-size: 32px;
+  line-height: 31.7px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.breadcrumb-path {
+  font-family: "InvolveRegular", Helvetica;
+  color: #0b0226;
+  font-size: 32px;
+  line-height: 31.7px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Общие стили для секций услуг */
+.service-section {
+  position: relative;
+  width: 100%;
+  max-width: 1648px;
+  margin: 80px auto 0;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  scroll-margin-top: 100px; /* Отступ для якорных ссылок */
+}
+
+.service-content {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.service-content-right {
+  order: 2;
+}
+
+.service-title {
+  font-family: "Unbounded", Helvetica;
+  color: #0f0432;
+  font-size: 56px;
+  line-height: 68px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 120px;
+  width: 900px;
+}
+
+.service-title-right {
+  font-family: "Unbounded", Helvetica;
+  color: #0f0432;
+  font-size: 56px;
+  line-height: 68px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 120px;
+  text-align: right;
+}
+
+.service-subtitle {
+  font-family: "InvolveRegular", Helvetica;
+  color: #095fd8;
+  font-size: 32px;
+  line-height: 31.7px;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+}
+
+.service-subtitle-right {
+  position: relative;
+  left: auto;
+  right: auto;
+  text-align: right;
+  padding-top: 75px;
+}
+
+.service-description {
+  font-family: "InvolveRegular", Helvetica;
+  color: #0e0332;
+  font-size: 32px;
+  line-height: 31.7px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 100px;
+}
+
+.service-description-right {
+  font-family: "InvolveRegular", Helvetica;
+  color: #0e0332;
+  font-size: 32px;
+  line-height: 31.7px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 100px;
+  text-align: right;
+}
+
+.service-image {
+  width: 48%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 200px;
+}
+
+.service-image-left {
+  order: 1;
+}
+
+/* Специфические стили для каждой секции услуг */
+.service-development .service-description {
+  margin-top: 160px;
+}
+
+.service-development .service-subtitle {
+  margin-top: 140px;
+  text-align: right;
+  margin-left: 800px;
+  letter-spacing: normal;
+}
+
+.service-development .service-image {
+  margin-top: 370px;
+}
+
+.service-corporate .service-title-right {
+  margin-top: 70px;
+  width: 600px;
+  text-align: right;
+  margin-left: 120px;
+}
+
+.service-corporate .service-subtitle-right {
+  margin-top: 55px;
+}
+
+.service-corporate .service-description-right {
+  margin-top: 50px;
+}
+
+.service-corporate .service-image-left {
+  margin-top: 80px;
+}
+
+.service-ecommerce .service-title {
+  margin-top: 10px;
+}
+
+.service-ecommerce .service-subtitle {
+  margin-top: 200px;
+}
+
+.service-ecommerce .service-description {
+  margin-top: 220px;
+}
+
+.service-ecommerce .service-image {
+  margin-top: 185px;
+}
+
+.service-landing .service-title-right {
+  margin-top: 70px;
+  width: 600px;
+  text-align: right;
+  margin-left: 120px;
+}
+
+.service-landing .service-subtitle-right {
+  margin-top: 90px;
+}
+
+.service-landing .service-description-right {
+  margin-top: 30px;
+}
+
+.service-landing .service-image-left {
+  margin-top: 80px;
+}
+
+.service-redesign .service-title {
+  margin-top: 10px;
+}
+
+.service-redesign .service-subtitle {
+  margin-top: 200px;
+}
+
+.service-redesign .service-description {
+  margin-top: 220px;
+  margin-bottom: 220px;
+}
+
+.service-redesign .service-image {
+  margin-top: 200px;
+}

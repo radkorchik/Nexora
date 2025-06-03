@@ -1,0 +1,208 @@
+/* Z-index для фоновых элементов */
+.service-image {
+  z-index: 1;
+}
+
+.service-content,
+.service-content-right {
+  z-index: 2;
+  position: relative;
+}
+
+.service-title,
+.service-title-right,
+.service-subtitle,
+.service-subtitle-right,
+.service-description,
+.service-description-right {
+  z-index: 3;
+  position: relative;
+}
+
+/* Общие стили для секций услуг */
+.service-section {
+  position: relative;
+  width: 100%;
+  max-width: 1648px;
+  margin: 80px auto 0;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.service-content {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.service-content-right {
+  order: 2;
+}
+
+.service-title {
+  font-family: "Unbounded", Helvetica;
+  color: #0f0432;
+  font-size: 56px;
+  line-height: 68px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 120px;
+  width: 900px;
+}
+
+.service-title-right {
+  font-family: "Unbounded", Helvetica;
+  color: #0f0432;
+  font-size: 56px;
+  line-height: 68px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 120px;
+  text-align: right;
+}
+
+.service-subtitle {
+  font-family: "InvolveRegular", Helvetica;
+  color: #095fd8;
+  font-size: 32px;
+  line-height: 31.7px;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+}
+
+.service-subtitle-right {
+  font-family: "InvolveRegular", Helvetica;
+  color: #095fd8;
+  font-size: 32px;
+  line-height: 31.7px;
+  padding-top: 90px;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: relative;
+  text-align: right;
+}
+
+.service-description {
+  font-family: "InvolveRegular", Helvetica;
+  color: #0e0332;
+  font-size: 32px;
+  line-height: 31.7px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 100px;
+}
+
+.service-description-right {
+  font-family: "InvolveRegular", Helvetica;
+  color: #0e0332;
+  font-size: 32px;
+  line-height: 31.7px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 100px;
+  text-align: right;
+}
+
+.service-image {
+  width: 48%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 200px;
+}
+
+.service-image-left {
+  order: 1;
+}
+
+/* Специфические стили для каждой секции услуг */
+#development .service-description {
+  margin-top: 160px;
+}
+
+#development .service-subtitle {
+  margin-top: 140px;
+  text-align: right;
+  margin-left: 800px;
+}
+
+#development .service-image {
+  margin-top: 370px;
+}
+
+#corporate .service-title-right {
+  margin-top: 70px;
+  width: 600px;
+  text-align: right;
+  margin-left: 120px;
+}
+
+#corporate .service-subtitle-right {
+  margin-top: 55px;
+}
+
+#corporate .service-description-right {
+  margin-top: 50px;
+}
+
+#corporate .service-image-left {
+  margin-top: 80px;
+}
+
+#ecommerce .service-title {
+  margin-top: 10px;
+}
+
+#ecommerce .service-subtitle {
+  margin-top: 200px;
+}
+
+#ecommerce .service-description {
+  margin-top: 220px;
+}
+
+#ecommerce .service-image {
+  margin-top: 185px;
+}
+
+#landing .service-title-right {
+  margin-top: 70px;
+  width: 600px;
+  text-align: right;
+  margin-left: 120px;
+}
+
+#landing .service-subtitle-right {
+  margin-top: 90px;
+}
+
+#landing .service-description-right {
+  margin-top: 30px;
+}
+
+#landing .service-image-left {
+  margin-top: 80px;
+  z-index: 1;
+}
+
+#redesign .service-title {
+  margin-top: 10px;
+}
+
+#redesign .service-subtitle {
+  margin-top: 200px;
+}
+
+#redesign .service-description {
+  margin-top: 220px;
+  margin-bottom: 220px;
+}
+
+#redesign .service-image {
+  margin-top: 200px;
+}

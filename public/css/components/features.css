@@ -1,0 +1,51 @@
+.feature-card-dark {
+  position: absolute;
+  width: 812px;
+  height: 324px;
+  top: 880px;
+  left: 40px;
+  background-color: var(--color-dark-bg);
+  border-radius: var(--border-radius-large);
+}
+
+.feature-card-blue {
+  position: absolute;
+  width: 812px;
+  height: 324px;
+  top: 880px;
+  left: 876px;
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius-large);
+}
+
+.feature-title {
+  position: absolute;
+  top: 39px;
+  left: 24px;
+}
+
+.feature-description {
+  position: absolute;
+  width: 567px;
+  top: 219px;
+  left: 24px;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  color: var(--color-white);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 31.7px;
+}
+
+.feature-description-blue {
+  position: absolute;
+  width: 370px;
+  top: 219px;
+  left: 24px;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  color: var(--color-white);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 31.7px;
+}

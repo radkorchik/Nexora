@@ -1,0 +1,43 @@
+/* Навигация */
+.breadcrumbs {
+  position: relative;
+  width: 100%;
+  max-width: 1648px;
+  display: flex;
+  justify-content: space-between;
+  margin: 120px auto 0;
+  padding: 0 40px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-arrow {
+  width: 32px;
+  height: 32px;
+}
+
+.back-text {
+  font-family: "InvolveRegular", Helvetica;
+  color: #0b0226;
+  font-size: 32px;
+  line-height: 31.7px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.breadcrumb-path {
+  font-family: "InvolveRegular", Helvetica;
+  color: #0b0226;
+  font-size: 32px;
+  line-height: 31.7px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+}

@@ -1,0 +1,80 @@
+/* Адаптивные стили */
+@media (max-width: 1728px) {
+  .page-container .main-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-section,
+  .info-section,
+  .developer-image,
+  .feature-card-dark,
+  .feature-card-blue {
+    width: 90%;
+    left: 5%;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .feature-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .services-title,
+  .cases-title,
+  .consultation-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .name-input-container,
+  .email-input-container,
+  .phone-input-container,
+  .submit-button,
+  .privacy-notice {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .contact-button {
+    width: 300px;
+    left: 5%;
+  }
+
+  .button-text {
+    font-size: 24px;
+  }
+
+  .feature-title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .feature-description,
+  .feature-description-blue {
+    font-size: 24px;
+  }
+
+  .services-title,
+  .cases-title,
+  .consultation-title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .consultation-description {
+    font-size: 24px;
+    width: 90%;
+  }
+}

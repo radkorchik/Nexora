@@ -1,0 +1,32 @@
+:root {
+  /* Цвета */
+  --color-primary: #140085;
+  --color-primary-hover: #1a00a6;
+  --color-secondary: #095fd8;
+  --color-secondary-hover: #0a4ca8;
+  --color-dark: #0f0432;
+  --color-dark-alt: #0e0331;
+  --color-dark-bg: #0b0226;
+  --color-white: #ffffff;
+  --color-gray: #828282;
+  --color-border: #9cc5ff;
+  --color-success: #28a745;
+
+  /* Шрифты */
+  --font-primary: "Unbounded", Helvetica, sans-serif;
+  --font-secondary: "Involve-Regular", Helvetica, sans-serif;
+  --font-medium: "Involve-Medium", Helvetica, sans-serif;
+  --font-semibold: "Involve-SemiBold", Helvetica, sans-serif;
+
+  /* Размеры */
+  --border-radius: 30px;
+  --border-radius-large: 32px;
+  --border-radius-small: 36px;
+
+  /* Переходы */
+  --transition-default: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Тени */
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,96 @@
+/* Базовая типографика */
+.hero-title {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--color-white);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 83px;
+  margin: 0;
+}
+
+.feature-title {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--color-white);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 84px;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.services-title,
+.cases-title,
+.consultation-title {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--color-dark);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 84px;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.service-title-1 {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--color-white);
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: 68px;
+  margin: 0;
+}
+
+.service-title-2 {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--color-white);
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 68px;
+  margin: 0;
+}
+
+.footer-heading {
+  font-family: var(--font-semibold);
+  font-weight: 600;
+  color: var(--color-dark);
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 35.6px;
+  margin: 0;
+}
+
+/* Стили для страниц услуг */
+.service-page {
+  padding: 100px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-page h1 {
+  font-family: var(--font-primary);
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: var(--color-dark);
+}
+
+.service-page p {
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.service-page a {
+  font-family: var(--font-medium);
+  color: var(--color-secondary);
+  text-decoration: none;
+  transition: color var(--transition-default);
+}
+
+.service-page a:hover {
+  color: var(--color-secondary-hover);
+}
